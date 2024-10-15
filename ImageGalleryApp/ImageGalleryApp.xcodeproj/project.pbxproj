@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041948F12CBF201900F4D674 /* UIViewBorderWidthAndColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041948ED2CBF201900F4D674 /* UIViewBorderWidthAndColor.swift */; };
+		041948F22CBF201900F4D674 /* UIviewCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041948EE2CBF201900F4D674 /* UIviewCornerRadius.swift */; };
+		041948F32CBF201900F4D674 /* viewshadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041948EF2CBF201900F4D674 /* viewshadow.swift */; };
 		047ED6172CBDABD100EB25F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ED6162CBDABD100EB25F7 /* AppDelegate.swift */; };
 		047ED6192CBDABD100EB25F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ED6182CBDABD100EB25F7 /* SceneDelegate.swift */; };
 		047ED61B2CBDABD100EB25F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ED61A2CBDABD100EB25F7 /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041948ED2CBF201900F4D674 /* UIViewBorderWidthAndColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBorderWidthAndColor.swift; sourceTree = "<group>"; };
+		041948EE2CBF201900F4D674 /* UIviewCornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIviewCornerRadius.swift; sourceTree = "<group>"; };
+		041948EF2CBF201900F4D674 /* viewshadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewshadow.swift; sourceTree = "<group>"; };
 		047ED6132CBDABD100EB25F7 /* ImageGalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047ED6162CBDABD100EB25F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047ED6182CBDABD100EB25F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041948F02CBF201900F4D674 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				041948ED2CBF201900F4D674 /* UIViewBorderWidthAndColor.swift */,
+				041948EE2CBF201900F4D674 /* UIviewCornerRadius.swift */,
+				041948EF2CBF201900F4D674 /* viewshadow.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		047ED60A2CBDABD100EB25F7 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +136,7 @@
 				04B8D0622CBEDDA300CE0CC1 /* View */,
 				04B8D0612CBEDD9A00CE0CC1 /* ViewModel */,
 				04B8D0602CBEDD9200CE0CC1 /* Model */,
+				041948F02CBF201900F4D674 /* Utilities */,
 				047ED61C2CBDABD100EB25F7 /* Main.storyboard */,
 				047ED61F2CBDABD300EB25F7 /* Assets.xcassets */,
 				047ED6212CBDABD300EB25F7 /* LaunchScreen.storyboard */,
@@ -322,11 +339,14 @@
 				047ED6492CBDAC9300EB25F7 /* Model.swift in Sources */,
 				047ED6472CBDABFB00EB25F7 /* ApiManager.swift in Sources */,
 				04C72ADE2CBEE9F700768F18 /* ImageCache.swift in Sources */,
+				041948F32CBF201900F4D674 /* viewshadow.swift in Sources */,
 				047ED61B2CBDABD100EB25F7 /* ViewController.swift in Sources */,
 				047ED6172CBDABD100EB25F7 /* AppDelegate.swift in Sources */,
+				041948F12CBF201900F4D674 /* UIViewBorderWidthAndColor.swift in Sources */,
 				047ED6192CBDABD100EB25F7 /* SceneDelegate.swift in Sources */,
 				04C72AE12CBF0A2200768F18 /* ImageDetailVC.swift in Sources */,
 				047ED64D2CBDB68C00EB25F7 /* ImagesCollectionViewCell.swift in Sources */,
+				041948F22CBF201900F4D674 /* UIviewCornerRadius.swift in Sources */,
 				047ED64B2CBDAED600EB25F7 /* ImageGalleryViewModel.swift in Sources */,
 				04C72AE32CBF0B0E00768F18 /* ImageDetailCollectionViewCell.swift in Sources */,
 			);
