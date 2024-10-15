@@ -20,6 +20,7 @@
 		047ED6492CBDAC9300EB25F7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ED6482CBDAC9300EB25F7 /* Model.swift */; };
 		047ED64B2CBDAED600EB25F7 /* ImageGalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ED64A2CBDAED600EB25F7 /* ImageGalleryViewModel.swift */; };
 		047ED64D2CBDB68C00EB25F7 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ED64C2CBDB68C00EB25F7 /* ImagesCollectionViewCell.swift */; };
+		04C72ADE2CBEE9F700768F18 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C72ADD2CBEE9F700768F18 /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		047ED6482CBDAC9300EB25F7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		047ED64A2CBDAED600EB25F7 /* ImageGalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewModel.swift; sourceTree = "<group>"; };
 		047ED64C2CBDB68C00EB25F7 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		04C72ADD2CBEE9F700768F18 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				047ED6162CBDABD100EB25F7 /* AppDelegate.swift */,
 				047ED6182CBDABD100EB25F7 /* SceneDelegate.swift */,
+				04C72ADD2CBEE9F700768F18 /* ImageCache.swift */,
 				04B8D0632CBEDDC200CE0CC1 /* Api Manager */,
 				04B8D0622CBEDDA300CE0CC1 /* View */,
 				04B8D0612CBEDD9A00CE0CC1 /* ViewModel */,
@@ -304,6 +307,7 @@
 			files = (
 				047ED6492CBDAC9300EB25F7 /* Model.swift in Sources */,
 				047ED6472CBDABFB00EB25F7 /* ApiManager.swift in Sources */,
+				04C72ADE2CBEE9F700768F18 /* ImageCache.swift in Sources */,
 				047ED61B2CBDABD100EB25F7 /* ViewController.swift in Sources */,
 				047ED6172CBDABD100EB25F7 /* AppDelegate.swift in Sources */,
 				047ED6192CBDABD100EB25F7 /* SceneDelegate.swift in Sources */,

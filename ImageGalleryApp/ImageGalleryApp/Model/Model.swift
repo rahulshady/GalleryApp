@@ -19,3 +19,4 @@ struct ImagesModel: Codable {
     }
 }
 
+typealias Welcome = [ImagesModel]

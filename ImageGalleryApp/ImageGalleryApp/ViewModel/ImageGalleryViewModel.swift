@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UserViewModel {
+class ImagesViewModel {
     var imageData = [ImagesModel]()
     
     func getUser(completion: @escaping (Result<[ImagesModel], Error>) -> Void) {
